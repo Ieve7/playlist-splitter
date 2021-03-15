@@ -86,6 +86,7 @@ with window('Window1'):
 
 set_main_window_size(700,900)
 set_main_window_resizable(False)
+set_main_window_title('Playlist Splitter')
 THEMES='''Classic, Light, Grey, Dark Grey, Dark, Dark 2, Cherry, Purple, Gold, Red'''.split(', ')
 set_theme(THEMES[2]) # 5
 start_dearpygui(primary_window='Window1')
